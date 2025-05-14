@@ -28,12 +28,7 @@ A web application is like a smart house — different parts have different jobs,
 We’ll approach Django with the mindset of building **real-world web projects**, meaning:
 
 - Always thinking in terms of **“how will this help the project?”**
-- Using tools such as:
-  - 🐍 **Backend**: Django (Python)
-  - 🗄️ **Database**: PostgreSQL / SQLite
-  - 🎨 **Design**: Figma
-  - 🌐 **Frontend**: HTML/CSS/JS (or React, optionally)
-  - 🔌 **APIs**: Django REST Framework
+
 
 ---
 # ✅ Django Topics Mapped to Real-World Web App Components
