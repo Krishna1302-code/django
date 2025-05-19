@@ -100,3 +100,18 @@ Django gives you **pre-built tools** to avoid writing everything from scratch.
 # MVT in Django
 #### The key concept in Django is how it is structured and how it handles requests from users. To break things down simply, Django follows a pattern called MVT (Model-View-Template), which is a variation of the popular MVC (Model-View-Controller) pattern.
 
+```
+User Request (URL)
+        ↓
+Django URL Dispatcher (`urls.py`)
+        ↓
+View (`views.py`)
+        ↓
+ ┌─────────────┬──────────────┐
+ ↓             ↓              ↓
+Model (`models.py`)      Template (HTML + DTL)
+        ↓                      ↓
+    Database              Rendered HTML
+                                ↓
+                         User Response
+```
